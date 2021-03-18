@@ -51,11 +51,11 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
-    let sum = a+b+c;
-    let mul = a*b*c;
-    return [sum,mul,+a+' and '+b+' and '+c+' sum to '+sum+'.','The product of '+a+' and '+b+' and '+c+' is '+mul+'.'];
-}
+// function sumAndMultiply(a, b, c) { //eslint-disable-line
+//     let sum = a+b+c;
+//     let mul = a*b*c;
+//     return [sum,mul,+a+' and '+b+' and '+c+' sum to '+sum+'.','The product of '+a+' and '+b+' and '+c+' is '+mul+'.'];
+// }
 
 // console.log(sumAndMultiply(5,7,2)); 
 // testSumAndMultiply(4,7,5);
@@ -73,12 +73,12 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-let testArray = [2, 3, 4]; //eslint-disable-line
+// let testArray = [2, 3, 4]; //eslint-disable-line
 
-function sumArray(sumArr) { //eslint-disable-line
-    let result = Number(sum(sumArr[0],sumArr[1],sumArr[2]));
-    return [result,sumArr+' was passed in as an array of numbers, and '+result+' is their sum.'];
-}
+// function sumArray(sumArr) { //eslint-disable-line
+//     let result = Number(sum(sumArr[0],sumArr[1],sumArr[2]));
+//     return [result,sumArr+' was passed in as an array of numbers, and '+result+' is their sum.'];
+// }
 
 // console.log(sumArray(testArray));
 
@@ -97,10 +97,10 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { //eslint-disable-line
-    let val = Number(multiply(multArr[0],multArr[1],multArr[2]));
-    return [val,'The numbers '+multArr+' have a product of '+val+'.']; 
-}
+// function multiplyArray(multArr) { //eslint-disable-line
+//     let val = Number(multiply(multArr[0],multArr[1],multArr[2]));
+//     return [val,'The numbers '+multArr+' have a product of '+val+'.']; 
+// }
 
 //console.log(multiplyArray(testArray));
 //testMultiplyArray(testArray);
